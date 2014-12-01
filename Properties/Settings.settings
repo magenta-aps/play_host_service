@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CPreaderController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProcessToStart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\MagentaWorkspace\CPReader\Lib\activator-1.2.10\activator.bat</Value>
+    </Setting>
+    <Setting Name="StartArgumentsArguments" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">run</Value>
+    </Setting>
+    <Setting Name="StartIn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\magentaworkspace\cpreader\play-cpreader</Value>
+    </Setting>
+    <Setting Name="KillProcessName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">java</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
