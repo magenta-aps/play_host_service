@@ -58,5 +58,14 @@ namespace CPreaderController.Properties {
                 return ((string)(this["KillProcessName"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool LoggingEnabled {
+            get {
+                return ((bool)(this["LoggingEnabled"]));
+            }
+        }
     }
 }

@@ -14,5 +14,8 @@
     <Setting Name="KillProcessName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">java</Value>
     </Setting>
+    <Setting Name="LoggingEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
