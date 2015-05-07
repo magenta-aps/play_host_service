@@ -7,6 +7,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.IO;
+using System.Reflection;
 
 namespace CPreaderController
 {
@@ -21,11 +22,13 @@ namespace CPreaderController
 
         protected override void OnStart(string[] args)
         {
+            var exeDirectory = new FileInfo(Assembly.GetEntryAssembly().Location).Directory.FullName;
+
             ProcessStartInfo startInfo = new ProcessStartInfo()
             {
-                FileName = Properties.Settings.Default.ProcessToStart,
+                FileName = Path.Combine(exeDirectory, Properties.Settings.Default.ProcessToStart),
                 Arguments = Properties.Settings.Default.StartArgumentsArguments,
-                WorkingDirectory = Properties.Settings.Default.StartIn,
+                WorkingDirectory = Path.Combine(exeDirectory, Properties.Settings.Default.StartIn),
 
                 UseShellExecute = false,
                 CreateNoWindow = true,
@@ -71,7 +74,7 @@ namespace CPreaderController
 
         void process_OutputDataReceived(object sender, DataReceivedEventArgs e)
         {
-            WriteText("out", e.Data); 
+            WriteText("out", e.Data);
         }
 
         protected override void OnStop()
