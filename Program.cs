@@ -4,7 +4,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Diagnostics;
-namespace CPreaderController
+namespace PlayHostService
 {
     static class Program
     {

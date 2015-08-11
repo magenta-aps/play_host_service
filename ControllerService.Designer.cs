@@ -1,4 +1,4 @@
-﻿namespace CPreaderController
+﻿namespace PlayHostService
 {
     partial class ControllerService
     {

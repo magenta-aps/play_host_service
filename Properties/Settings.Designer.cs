@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CPreaderController.Properties {
+namespace PlayHostService.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,7 +25,7 @@ namespace CPreaderController.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\MagentaWorkspace\\CPReader\\Lib\\activator-1.2.10\\activator.bat")]
+        [global::System.Configuration.DefaultSettingValueAttribute("activator-1.3.2-minimal\\activator.bat")]
         public string ProcessToStart {
             get {
                 return ((string)(this["ProcessToStart"]));
@@ -43,7 +43,7 @@ namespace CPreaderController.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("c:\\magentaworkspace\\cpreader\\play-cpreader")]
+        [global::System.Configuration.DefaultSettingValueAttribute("..")]
         public string StartIn {
             get {
                 return ((string)(this["StartIn"]));
@@ -61,7 +61,7 @@ namespace CPreaderController.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool LoggingEnabled {
             get {
                 return ((bool)(this["LoggingEnabled"]));

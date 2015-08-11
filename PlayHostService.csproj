@@ -8,8 +8,8 @@
     <ProjectGuid>{3FE8BDFA-D485-42C0-BB06-24985B936801}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CPreaderController</RootNamespace>
-    <AssemblyName>CPreaderController</AssemblyName>
+    <RootNamespace>PlayHostService</RootNamespace>
+    <AssemblyName>PlayHostService</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

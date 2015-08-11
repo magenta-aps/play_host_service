@@ -1,21 +1,21 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CPreaderController.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PlayHostService.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="ProcessToStart" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\MagentaWorkspace\CPReader\Lib\activator-1.2.10\activator.bat</Value>
+      <Value Profile="(Default)">activator-1.3.2-minimal\activator.bat</Value>
     </Setting>
     <Setting Name="StartArgumentsArguments" Type="System.String" Scope="Application">
       <Value Profile="(Default)">run</Value>
     </Setting>
     <Setting Name="StartIn" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">c:\magentaworkspace\cpreader\play-cpreader</Value>
+      <Value Profile="(Default)">..</Value>
     </Setting>
     <Setting Name="KillProcessName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">java</Value>
     </Setting>
     <Setting Name="LoggingEnabled" Type="System.Boolean" Scope="Application">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

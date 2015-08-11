@@ -9,7 +9,7 @@ using System.Text;
 using System.IO;
 using System.Reflection;
 
-namespace CPreaderController
+namespace PlayHostService
 {
     public partial class ControllerService : ServiceBase
     {

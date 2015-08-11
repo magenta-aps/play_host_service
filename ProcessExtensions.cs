@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-namespace CPreaderController
+namespace PlayHostService
 {
     public static class ProcessExtensions
     {
