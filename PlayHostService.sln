@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPreaderController", "CPreaderController.csproj", "{3FE8BDFA-D485-42C0-BB06-24985B936801}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayHostService", "PlayHostService.csproj", "{3FE8BDFA-D485-42C0-BB06-24985B936801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
