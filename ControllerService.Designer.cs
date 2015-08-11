@@ -31,7 +31,7 @@
             // 
             // ControllerService
             // 
-            this.ServiceName = "CPReader controller service";
+            this.ServiceName = "Play! controller service";
 
         }
 

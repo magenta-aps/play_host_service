@@ -39,8 +39,8 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DisplayName = "CPReader controller service";
-            this.serviceInstaller1.ServiceName = "CPReader controller service";
+            this.serviceInstaller1.DisplayName = "Play! controller service";
+            this.serviceInstaller1.ServiceName = "Play! controller service";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
